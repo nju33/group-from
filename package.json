@@ -1,0 +1,33 @@
+{
+  "name": "group-at",
+  "description": "",
+  "version": "0.1.0",
+  "author": {
+    "name": "nju33",
+    "email": "sski0155+npm@gmail.com",
+    "url": "http://www.nju33.work/"
+  },
+  "bugs": {
+    "url": "https://github.com/totora0155/group-at/issues"
+  },
+  "dependencies": {
+    "lodash.foreach": "^4.1.0",
+    "lodash.get": "^4.1.2",
+    "lodash.map": "^4.2.1",
+    "lodash.transform": "^4.2.1"
+  },
+  "devDependencies": {
+    "ava": "^0.13.0"
+  },
+  "homepage": "https://github.com/totora0155/group-at#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:totora0155/group-at.git"
+  },
+  "scripts": {
+    "test": "ava"
+  }
+}
