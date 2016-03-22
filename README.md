@@ -16,39 +16,39 @@ npm i group-from
 ## Usage
 
 ```js
-const groupFrom = require('group-from');
+const groupFrom = require('group-form');
 
 const data = [
   {
     parent: {
       child: {
-        items: {
-          foo: 'foo',
-          bar: 'bar',
-        },
+        categories: [
+          'foo',
+          'bar',
+        ],
       },
     },
   },
   {
     parent: {
       child: {
-        items: {
-          foo: 'FOO',
-          baz: 'baz',
-        },
+        categories: [
+          'foo',
+          'baz',
+        ],
       },
     },
   },
 ];
 
-console.log(groupFrom(data, 'parent.child.items'));
+console.log(groupFrom(data, 'parent.child.categories'));
 
 ```
 
 output.
 
 ```js
-[ { items: [ 'foo', 'FOO' ], name: 'foo' },
-  { items: [ 'bar' ], name: 'bar' },
-  { items: [ 'baz' ], name: 'baz' } ]
+[ { items: [ [Object], [Object] ], name: 'foo' },
+  { items: [ [Object] ], name: 'bar' },
+  { items: [ [Object] ], name: 'baz' } ]
 ```

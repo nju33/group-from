@@ -6,12 +6,19 @@ const map = require('lodash.map');
 module.exports = function groupFrom(data, path) {
   const grouped = transform(data, (result, obj) => {
     const target = get(obj, path);
-    if (!Array.isArray(target) && typeof target === 'object') {
-      forEach(target, (items, name) => {
+    if (Array.isArray(target)) {
+      forEach(target, (name) => {
         if (!result[name]) {
           result[name] = [];
         }
-        result[name].push(items);
+        result[name].push(obj);
+      });
+    } else if (typeof target === 'object') {
+      forEach(target, (value, name) => {
+        if (!result[name]) {
+          result[name] = [];
+        }
+        result[name].push(obj);
       });
     } else {
       return false;

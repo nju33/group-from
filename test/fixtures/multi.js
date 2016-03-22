@@ -2,20 +2,20 @@ module.exports = [
   {
     parent: {
       child: {
-        items: {
-          foo: 'foo',
-          bar: 'bar',
-        },
+        categories: [
+          'foo',
+          'bar',
+        ],
       },
     },
   },
   {
     parent: {
       child: {
-        items: {
-          foo: 'FOO',
-          baz: 'baz',
-        },
+        categories: [
+          'foo',
+          'baz',
+        ],
       },
     },
   },
