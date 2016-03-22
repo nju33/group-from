@@ -1,5 +1,6 @@
 # group-from
 
+[![npm version](https://badge.fury.io/js/group-from.svg)](https://badge.fury.io/js/group-from)
 [![Build Status](https://travis-ci.org/totora0155/group-from.svg?branch=master)](https://travis-ci.org/totora0155/group-from)
 
 Create group from a property object value
