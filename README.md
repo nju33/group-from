@@ -15,7 +15,7 @@ npm i group-from
 ## Usage
 
 ```js
-const groupFrom = require('..');
+const groupFrom = require('group-from');
 
 const data = [
   {
@@ -47,7 +47,7 @@ console.log(groupFrom(data, 'parent.child.items'));
 output.
 
 ```js
-[ { items: [ 'foo', 'FOO' ], key: 'foo' },
-  { items: [ 'bar' ], key: 'bar' },
-  { items: [ 'baz' ], key: 'baz' } ]
+[ { items: [ 'foo', 'FOO' ], name: 'foo' },
+  { items: [ 'bar' ], name: 'bar' },
+  { items: [ 'baz' ], name: 'baz' } ]
 ```
