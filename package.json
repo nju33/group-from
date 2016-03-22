@@ -1,7 +1,7 @@
 {
   "name": "group-from",
   "description": "Create group from a property object value",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "nju33",
     "email": "sski0155+npm@gmail.com",
