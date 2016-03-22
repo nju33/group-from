@@ -1,7 +1,7 @@
 {
   "name": "group-from",
   "description": "Create group from a property object value",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": {
     "name": "nju33",
     "email": "sski0155+npm@gmail.com",
@@ -13,7 +13,6 @@
   "dependencies": {
     "lodash.foreach": "^4.1.0",
     "lodash.get": "^4.1.2",
-    "lodash.map": "^4.2.1",
     "lodash.transform": "^4.2.1"
   },
   "devDependencies": {

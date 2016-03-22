@@ -1,3 +1,6 @@
+### 0.3.0
+- Remove map process
+
 ### 0.2.0
 - Change items to origin object
 

@@ -48,7 +48,7 @@ console.log(groupFrom(data, 'parent.child.categories'));
 output.
 
 ```js
-[ { items: [ [Object], [Object] ], name: 'foo' },
-  { items: [ [Object] ], name: 'bar' },
-  { items: [ [Object] ], name: 'baz' } ]
+{ foo: [ { parent: [Object] }, { parent: [Object] } ],
+  bar: [ { parent: [Object] } ],
+  baz: [ { parent: [Object] } ] }
 ```
