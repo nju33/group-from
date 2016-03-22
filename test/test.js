@@ -1,4 +1,4 @@
-const groupAt = require('..');
+const groupFrom = require('..');
 const test = require('ava');
 
 const data = [

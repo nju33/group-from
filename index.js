@@ -3,7 +3,7 @@ const get = require('lodash.get');
 const forEach = require('lodash.foreach');
 const map = require('lodash.map');
 
-module.exports = function groupAt(data, path) {
+module.exports = function groupFrom(data, path) {
   const grouped = transform(data, (result, obj) => {
     const target = get(obj, path);
     if (!Array.isArray(target) && target) {

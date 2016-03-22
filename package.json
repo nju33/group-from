@@ -1,6 +1,6 @@
 {
-  "name": "group-at",
-  "description": "",
+  "name": "group-from",
+  "description": "Create group from a property object value",
   "version": "0.1.0",
   "author": {
     "name": "nju33",
