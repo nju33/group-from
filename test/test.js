@@ -24,7 +24,7 @@ test('Multi', (t) => {
 test('String', (t) => {
   const result = groupFrom(data.string, 'parent.child.categories');
 
-  t.same(result, {});
+  t.ok(result.foo);
 });
 
 test('Object', (t) => {

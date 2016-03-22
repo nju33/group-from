@@ -1,3 +1,6 @@
+### 0.3.1
+- Fix proc when `String`
+
 ### 0.3.0
 - Remove map process
 
